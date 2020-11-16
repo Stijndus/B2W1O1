@@ -1,0 +1,90 @@
+body {
+    font-family: 'Archivo', sans-serif;
+    overflow-x: hidden;
+}
+
+a {
+	color:white;
+	text-decoration: none;
+}
+
+*{
+    padding: 0;
+    margin: 0;
+}
+
+.content{
+    width: 1000px;
+    margin: 0 auto;
+}
+
+/* Header */
+
+header img{
+    margin: 10px;
+}
+
+/* Nav */
+.nav-content-ul{
+    list-style-type: none;
+    display: inline-flex;
+    background-color:#222931 ;
+    width: 100%;
+}
+
+.banner-img img{
+    width: 100vw;
+    position: relative;
+    top: -30px;
+    left: calc(-50vw + 50%);
+    z-index: -1;
+}
+
+.drop-content{
+    display: none;
+    position: absolute;
+	left: 0;
+	top: 100%;
+    width: 150px;
+    list-style: none;
+    background-color: #222931;
+}
+
+.drop:hover .drop-content{
+    display: block;
+}
+
+.nav-content-ul li{
+    padding: 10px;
+    position: relative;
+}
+
+.nav-content-ul li:hover{
+    padding: 10px;
+    background-color: #ffe718;
+}
+
+/*Cards*/
+
+
+.img-banner-1:hover {
+    display: none;
+}
+
+.cards{
+    margin-bottom: 75px;
+}
+
+/* Ribbon */
+.ribbon{
+    background-color: #ffe718;
+    width: 100vw;
+    position: relative;
+    top: -30px;
+    left: calc(-50vw + 50%);
+    z-index: -1
+}
+
+.ribbon h2{
+text-align: center;
+}
