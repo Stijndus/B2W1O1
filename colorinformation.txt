@@ -1,4 +1,4 @@
-Primary: #222931   /* Donker grijs */
+Primary:   #222931 /* Donker grijs */
 
 - Menubalk
 - Lopende tekst

@@ -32,14 +32,6 @@ header img{
     width: 100%;
 }
 
-.banner-img img{
-    width: 100vw;
-    position: relative;
-    top: -30px;
-    left: calc(-50vw + 50%);
-    z-index: -1;
-}
-
 .drop-content{
     display: none;
     position: absolute;
@@ -64,12 +56,17 @@ header img{
     background-color: #ffe718;
 }
 
-/*Cards*/
+/* Banner */
 
-
-.img-banner-1:hover {
-    display: none;
+.banner-img img{
+    width: 100vw;
+    position: relative;
+    top: -30px;
+    left: calc(-50vw + 50%);
+    z-index: -1;
 }
+
+/*Cards*/
 
 .cards{
     margin-bottom: 75px;
@@ -82,9 +79,120 @@ header img{
     position: relative;
     top: -30px;
     left: calc(-50vw + 50%);
-    z-index: -1
+    z-index: -1;
 }
 
-.ribbon h2{
-text-align: center;
+.ribbon-content{
+	margin: 0 auto;
+	width: 1000px;
+	height: 100px;
+	color: #222931 ;
+
 }
+
+.ribbon-content h2,button,p{
+	display: inline-block;
+}
+
+.ribbon-content  h2,p{
+	margin-top: 35px;
+}
+
+.ribbon-content  button{
+	margin-top: 35px;
+	background-color: white;
+	padding: 8px 30px;
+    border: none;
+	float: right;
+}
+
+.ribbon-content  p{
+	margin-left: 10px;
+}
+
+.ribbon-content a{
+    color: #222931;
+}
+
+/* Footer */
+
+.footer-img{
+    z-index: -1;
+	width: 100vw;
+	position: relative;
+	left: calc(-50vw + 50%);
+	top: 75px;
+}
+
+.row2{
+	width: 1000px;
+	margin: 0 auto;
+	display: flex;
+	justify-content: space-around;
+	position: relative;
+	top: -50px;
+	color: #222931 ;
+}
+
+i{
+	float: left;
+	font-size: 50px;
+	margin-right: 20px;
+	color: #222931 ;
+}
+
+.cards2{
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	background-color:#ffe718;
+	width: 300px;
+	height: 90px;
+}
+
+.footer .left{
+	width: 500px;
+	float: left;
+}
+
+.footer .right{
+	float: right;
+	width: 400px;
+	display: flex;
+	flex-direction: column;
+}
+
+.break{
+    margin: 75px 0px;
+    color: grey;
+}
+
+.left p{
+    margin-right: 30px;
+}
+
+.contact{
+	display: inline-block;
+}
+
+.contact p{
+	margin-top: 40px;
+}
+.contact i{
+	margin-top: 40px;
+	font-size: 30px;
+}
+
+.footer-end{
+    background-color: #222931;
+    width: 100vw;
+    position: relative;
+    top: 0px;
+    left: calc(-50vw + 50%);
+    z-index: -1;
+    color: white;
+    margin-right: 200px;
+    text-align: right;
+}
+
+
